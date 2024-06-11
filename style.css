@@ -1,0 +1,29 @@
+video,
+img {
+  max-width: 100%;
+  height: auto;
+  display: none;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#mediaContainer {
+  position: relative;
+}
+
+.detected-object {
+  font: bold 20px Arial;
+}
+
+#mediaContainer h2 {
+  position: relative;
+  z-index: 1;
+}
+#canvas {
+  position: relative;
+  z-index: 0;
+}
